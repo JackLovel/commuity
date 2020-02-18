@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581993210271</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新">
+      <created>1581993419548</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581993419548</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,10 +159,10 @@
     </state>
     <state x="0" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1218.720@0.0.1218.720" timestamp="1581397552749" />
     <state x="0" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1581920938797" />
-    <state x="79" y="0" width="991" height="680" key="CommitChangelistDialog2" timestamp="1581993208855">
+    <state x="79" y="0" width="991" height="680" key="CommitChangelistDialog2" timestamp="1581993418319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="79" y="0" width="991" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581993208855" />
+    <state x="79" y="0" width="991" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581993418319" />
     <state x="410" y="110" key="FileChooserDialogImpl" timestamp="1581993062826">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -206,10 +213,10 @@
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1581498002689" />
     <state x="262" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581993064322" />
-    <state x="324" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581993225617">
+    <state x="324" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581993434539">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="324" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581993225617" />
+    <state x="324" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581993434539" />
     <state x="90" y="52" width="1014" height="431" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1581926749838">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
