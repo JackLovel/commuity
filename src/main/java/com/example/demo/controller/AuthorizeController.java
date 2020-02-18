@@ -5,12 +5,14 @@ import com.example.demo.dto.GithubUser;
 import com.example.demo.mapper.UserMapper;
 import com.example.demo.model.User;
 import com.example.demo.provider.GithubProvider;
+import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.print.attribute.standard.PrinterIsAcceptingJobs;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
@@ -22,6 +24,8 @@ public class AuthorizeController {
     private GithubProvider githubProvider;
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private UserService userService;
 
     @Value("${github.client.id}")
     private String clientId;
@@ -52,6 +56,7 @@ public class AuthorizeController {
             user.setGmtModified(user.getGmtModified());
             user.setAvatarUrl(githubUser.getAvatar_url());
             userMapper.insert(user);
+            userService.createOrUpdate(user);
             response.addCookie(new Cookie("token", token));
             return "redirect:/";
         } else {

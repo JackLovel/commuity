@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38351f2c-a600-4481-830c-d9e6ab298d7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/AuthorizeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/community.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/mapper/QuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/mapper/QuestionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/community.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581926051169</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新">
+      <created>1581988372398</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581988372398</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,34 +151,35 @@
     </state>
     <state x="0" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1218.720@0.0.1218.720" timestamp="1581397552749" />
     <state x="0" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1581920938797" />
-    <state x="261" y="0" width="991" height="680" key="CommitChangelistDialog2" timestamp="1581926050532">
+    <state x="261" y="0" width="991" height="680" key="CommitChangelistDialog2" timestamp="1581988371803">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="261" y="0" width="991" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581926050532" />
-    <state x="390" y="116" key="FileChooserDialogImpl" timestamp="1581497992699">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state x="261" y="0" width="991" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581988371803" />
+    <state x="410" y="110" key="FileChooserDialogImpl" timestamp="1581993062826">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="390" y="116" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1581497992699" />
-    <state width="1237" height="229" key="GridCell.Tab.0.bottom" timestamp="1581988307700">
+    <state x="410" y="110" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581993062826" />
+    <state width="1156" height="2" key="GridCell.Tab.0.bottom" timestamp="1581990655134">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1175" height="298" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1581499585578" />
-    <state width="1237" height="229" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581988307700" />
-    <state width="1237" height="229" key="GridCell.Tab.0.center" timestamp="1581988307699">
+    <state width="1156" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581990655134" />
+    <state width="1156" height="2" key="GridCell.Tab.0.center" timestamp="1581990655134">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1175" height="298" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1581499585577" />
-    <state width="1237" height="229" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581988307699" />
-    <state width="1237" height="229" key="GridCell.Tab.0.left" timestamp="1581988307699">
+    <state width="1156" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581990655134" />
+    <state width="1156" height="2" key="GridCell.Tab.0.left" timestamp="1581990655134">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1175" height="298" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1581499585577" />
-    <state width="1237" height="229" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581988307699" />
-    <state width="1237" height="229" key="GridCell.Tab.0.right" timestamp="1581988307700">
+    <state width="1156" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581990655134" />
+    <state width="1156" height="2" key="GridCell.Tab.0.right" timestamp="1581990655134">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1175" height="298" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1581499585577" />
-    <state width="1237" height="229" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581988307700" />
+    <state width="1156" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581990655134" />
     <state width="1222" height="2" key="GridCell.Tab.1.bottom" timestamp="1581916744760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -193,15 +200,15 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="140" y="16" key="Maven.ArtifactSearchDialog/0.0.1218.720@0.0.1218.720" timestamp="1581320463052" />
-    <state x="-295" y="0" key="SettingsEditor" timestamp="1581897135832">
+    <state x="262" y="0" key="SettingsEditor" timestamp="1581993064322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1581498002689" />
-    <state x="-295" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581897135832" />
-    <state x="324" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581926063224">
+    <state x="262" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581993064322" />
+    <state x="324" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581988388638">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="324" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581926063224" />
+    <state x="324" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581988388638" />
     <state x="90" y="52" width="1014" height="431" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1581926749838">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -214,10 +221,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1581900208338" />
-    <state x="311" y="39" width="707" height="641" key="search.everywhere.popup" timestamp="1581987799198">
+    <state x="311" y="39" width="707" height="641" key="search.everywhere.popup" timestamp="1581989050103">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="295" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1581328331514" />
-    <state x="311" y="39" width="707" height="641" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1581987799198" />
+    <state x="311" y="39" width="707" height="641" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1581989050103" />
   </component>
 </project>
